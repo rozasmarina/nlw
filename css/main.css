@@ -57,7 +57,6 @@ h1,
 }
 
 /* animações */
-
 @keyframes up {
   from {
     opacity: 0;
@@ -74,4 +73,24 @@ h1,
   animation-name: up;
   animation-duration: 300ms;
   animation-fill-mode: backwards;
+}
+
+#logo {
+  animation-delay: 50ms;
+}
+
+.location {
+  animation-delay: 100ms;
+}
+
+main h1 {
+  animation-delay: 150ms;
+}
+
+.visti p {
+  animation-delay: 200ms;
+}
+
+.visti a {
+  animation-delay: 250ms;
 }
