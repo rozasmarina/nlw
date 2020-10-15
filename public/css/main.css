@@ -1,5 +1,5 @@
-@import url(animations.css);
-@import url(landing.css);
+@import url("./landing.css");
+@import url("./landing.css");
 
 * {
   margin: 0;
