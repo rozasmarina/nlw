@@ -15,11 +15,15 @@ aside {
   justify-content: space-between;
 }
 
+aside header {
+  display: flex;
+  flex-direction: column;
+}
 
 aside h2 {
-  margin-top: 2.4rem;
+  margin-top: 6.4rem;
 
-  font: 800 clamp(2rem, 5vw, 3.6rem)/1.1, 'Nunito', sans-serif;
+  font: 800 clamp(3rem, 5vw, 4rem)/1.1, 'Nunito', sans-serif;
 }
 
 aside p {
@@ -27,8 +31,13 @@ aside p {
   font: 400 1.6rem/1.5, 'Nunito', sans-serif;
 }
 
-aside footer {
+aside footer p {
   margin-top: .8rem;
+}
+
+#mapid {
+  width: 100%;
+  height: 100%;
 }
 
 /* button  */
